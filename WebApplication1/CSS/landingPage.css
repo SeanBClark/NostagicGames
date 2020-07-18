@@ -1,0 +1,42 @@
+﻿.nameStyle {
+    font-size: 20px;
+    text-align: center;
+}
+
+.gridViewOverAll {
+    background-color: #092040;
+    color: white;
+    border-color: #092040;
+    width: 75%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.homepageImages {
+    height: 20px;
+    width: 20px;
+}
+
+.GVHeaders {
+    background-color: #d96968;
+    padding: 1%;
+}
+
+.btGVLandingPage {
+    padding: 2%;
+    border-style: hidden;
+    color: white;
+    background-color: #d96968;
+    width: 75%;
+    margin-right: 12.5%; 
+    margin-left: 12.5%; 
+}
+
+    .btGVLandingPage:hover {
+        box-shadow: 0px 0px 5px 5px #e2e2e2;
+    }
+
+.homepageImagesDes {
+    height: 200px;
+    width: 200px;
+}

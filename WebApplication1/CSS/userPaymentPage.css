@@ -1,0 +1,60 @@
+﻿.txbpaymentName {
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #d96968;
+    padding: 0.5%;
+    border-style: hidden;
+    width: 50%;
+    margin-left: 2%;
+}
+
+    .txbpaymentName:hover {
+        box-shadow: 0px 0px 5px 5px #092040;
+    }
+
+.txbCVC {
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #d96968;
+    padding: 0.5%;
+    border-style: hidden;
+    width: 20%;
+    margin-left: 2%;
+}
+
+    .txbCVC:hover {
+        box-shadow: 0px 0px 5px 5px #092040;
+    }
+
+.txbxpiry {
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #d96968;
+    padding: 0.5%;
+    border-style: hidden;
+    width: 40%;
+    margin-left: 2%;
+}
+
+    .txbxpiry:hover {
+        box-shadow: 0px 0px 5px 5px #092040;
+    }
+
+.txbDate {
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #d96968;
+    padding: 0.5%;
+    border-style: hidden;
+    
+}
+
+    .txbDate:hover {
+        box-shadow: 0px 0px 5px 5px #092040;
+    }
+
+
+.divCVC {
+    width: 50%;
+    margin-left: 26%;
+}
+
+.registerButton {
+    border-style: hidden;
+}

@@ -1,0 +1,217 @@
+﻿html, body {
+    height: 100%;
+}
+
+#ContentPlaceHolder1 {
+    width: 85%;
+}
+
+.horizontalNavBar {
+    background-color: #092040;
+    height: auto;
+}
+
+.btnHoriNav {
+    float: left;
+}
+
+.btnHomeStyle {
+    background-color: #d96968;
+    color: white;
+    border-style: hidden;
+    float: left;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    width: 10%;
+}
+
+    .btnHomeStyle:hover {
+        box-shadow: 0px 0px 5px 5px #e2e2e2;
+    }
+
+.btnLoginStyle {
+    background-color: #d96968;
+    color: white;
+    border-style: hidden;
+    float: right;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    margin-right: 2%;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    width: 10%;
+}
+
+    .btnLoginStyle:hover {
+        box-shadow: 0px 0px 5px 5px #e2e2e2;
+    }
+
+.btnHomeImage {
+    float: left;
+}
+
+
+.siteIcon {
+    max-height: 10%;
+    max-width: 25%;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.txbSearchBarStyle {
+    padding: 0.5%;
+    margin-top: 1.2%;
+    margin-bottom: 0.5%;
+    border-style: hidden;
+    width: 25%;
+    margin-left: 1%;
+}
+
+    .txbSearchBarStyle:hover {
+        box-shadow: 0px 0px 5px 5px #d96968;
+    }
+
+.txbSearchBarStylePopup {
+    padding: 0.5%;
+    margin-top: 1.2%;
+    margin-bottom: 0.5%;
+    border-style: hidden;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    box-shadow: 0px 0px 5px 5px #d96968;
+}
+
+    .txbSearchBarStylePopup:hover {
+        box-shadow: 0px 0px 5px 5px #092040;
+    }
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(9, 32, 64, 0.6);
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: white;
+    font-size: 20px;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    font-size: 60px;
+    color: white;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.btnPopUp {
+    width: 11%;
+    margin-left: 1%;
+    box-shadow: 0px 0px 5px 5px #d96968;
+    border-style: hidden;
+    color: white;
+    background-color: #d96968;
+}
+
+    .btnPopUp:hover {
+        box-shadow: 0px 0px 5px 5px #092040;
+        background-color: #092040;
+    }
+
+.sideNav {
+    color: white;
+    text-align: center;
+    width: 15%;
+    /*Should be 100% of page height FIX*/
+    height: 1500px;
+    float: right;
+    background-color: #092040;
+}
+
+.btnSideStyle {
+    width: 75%;
+    text-align: center;
+    background-color: #d96968;
+    border-style: hidden;
+    padding: 2%;
+    color: white;
+    font-size: 0.8vw;
+}
+
+    .btnSideStyle:hover {
+        box-shadow: 0px 0px 5px 5px #e2e2e2;
+    }
+
+.cartDiv {
+    float: right;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-right: 2%;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    width: 15%;
+    text-align: center;
+    color: white;
+    background-color: #d96968;
+    max-height: 50px;
+    
+}
+    .cartDiv:hover {
+        box-shadow: 0px 0px 5px 5px #e2e2e2;
+    }
+
+.caftIcon {
+    margin-top: -2.5%;
+    max-height: 30px;
+}
+
+.btn btn-info btn-lg {
+    background-color: #d96968;
+}
+
+
+
+    

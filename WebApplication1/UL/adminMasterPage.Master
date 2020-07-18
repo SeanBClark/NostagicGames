@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminMasterPage.master.cs" Inherits="WebApplication1.UL.adminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Nostalgic Games Administraion Portal</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/MasterPage.css?parameter = 1"/>    
+    <link rel="stylesheet" type="text/css" href="../CSS/regPageStyleSheet.css?parameter = 1" />
+    <link rel="stylesheet" type="text/css" href="../CSS/AdminManagePageStyleSheet.css?parameter = 1" />
+    <link rel="stylesheet" type="text/css" href="../CSS/MasterPageInterfaceStyleSheet.css?parameter = 1" />
+    <link rel="stylesheet" type="text/css" href="../CSS/adminSiteStyle.css?parameter = 1"/> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    
+</head>
+
+
+
+<body>
+    <form id="form1" runat="server">
+        
+        <br />
+        <br />
+        <h3 class="h3Admin" style="text-align: center; font-size: 30px">Nostalgic Games Management Page</h3>
+        <br />
+        <a href="landingPage.aspx" >
+        <h4 class="h2Admin">View Main Site</h4>
+        </a>
+        <br />
+        <br />
+        <div style="text-align: center">
+            <asp:Button CssClass="btnAdminPage" ID="btnLoginToAdmin" runat="server" Text="Log into Admin" style="padding: 2%;"/>
+            
+            <asp:Button CssClass="btnAdminPage" ID="btnAdminLog" runat="server" Text="Register into Admin" style="padding: 2%;"/>
+            
+            <asp:Button CssClass="btnAdminPage" ID="btnMngtUsers" runat="server" Text="Manage User Account" style="padding: 2%;"/>
+            
+            <asp:Button CssClass="btnAdminPage" ID="btnMngtProducts" runat="server" Text="Manage Site Products" style="padding: 2%;"/>            
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="adminContenctPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

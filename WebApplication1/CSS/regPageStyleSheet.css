@@ -1,0 +1,81 @@
+﻿.btnRegLeft {
+    float: left;
+    background-color: #092040;
+    border-style: hidden;
+    color: white;
+    padding: 1%;
+    width: 24%;
+    margin-left: 25%;
+}
+
+
+    .btnRegLeft:hover {
+        box-shadow: 0px 0px 5px 5px #d96968;
+    }
+
+.btnRegRight {
+    float: right;
+    background-color: #092040;
+    border-style: hidden;
+    color: white;
+    padding: 1%;
+    width: 24%;
+    margin-right: 25%;
+}
+
+
+    .btnRegRight:hover {
+        box-shadow: 0px 0px 5px 5px #d96968;
+    }
+
+.btnReg {
+    float: right;
+    background-color: #092040;
+    border-style: hidden;
+    color: white;
+    padding: 1%;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+
+    .btnReg:hover {
+        box-shadow: 0px 0px 5px 5px #d96968;
+    }
+
+.regPageDiv {
+    margin-left: 12.5%;
+    margin-right: 26.5%;
+    max-width: 75%;
+    text-align: center;
+    /*background-color: #092040;*/
+    color: white;
+    font-size: 1.4vw;
+    background-color: rgba(9, 32, 64, 0.6);
+}
+
+.regHeader {
+    background-color: #d96968;
+    padding: 2%;
+}
+
+.txbSearchBarStylePopup {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.regErrors {
+    color: red;
+    /*background-color: #d96968;
+    margin-top: 2%;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    box-shadow: 0px 0px 5px 5px rgba(9, 32, 64, 0.6);
+    padding: 1%;
+    color: white;*/
+}
+
+

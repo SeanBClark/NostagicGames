@@ -1,0 +1,36 @@
+﻿body {
+    background-color: #e2e2e2;
+    word-wrap: break-word;
+    
+}
+
+.btnAdminPage {
+    background-color: #092040;
+    color: white;
+    border-style: hidden;
+    margin-right: 2%;
+}
+
+    .btnAdminPage:hover {
+        box-shadow: 0px 0px 5px 5px #d96968;
+    }
+
+.h3Admin {
+    background-color: #d96968;
+    color: white;
+    padding: 2%;
+    font-family: sans-serif;
+}
+
+.h2Admin {
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: #d96968;
+    color: white;
+    padding: 2%;
+    font-family: sans-serif;
+}
+
+    .h2Admin:hover {
+        box-shadow: 0px 0px 5px 5px #092040;
+    }

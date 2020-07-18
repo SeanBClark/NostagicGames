@@ -1,0 +1,600 @@
+﻿body {
+    background-color: #e2e2e2;
+    word-wrap: break-word;
+}
+
+.container-fluid {
+    background-color: #092040;
+}
+
+.links {
+    height: 76px;
+    color: #092040;
+    font-family: sans-serif;
+    font-size: 20;
+    margin-top: 20px;
+}
+
+.accountMenu {
+    background-color: #092040;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.list-group {
+    background-color: #092040;
+}
+
+.sideMenu {
+    background-color: #092040;
+    padding-top: 2%;
+    padding-bottom: 108.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -1.5%;
+    min-height: 100%;
+}
+
+.mainImage {
+    height: 75px;
+    width: 400px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*a:link {
+    color: #092040;
+}
+
+a:visited {
+    color: #092040;
+}
+
+a:active {
+    color: #092040;
+}*/
+
+/*.form1 {
+    margin-top: 20px;
+}*/
+
+.caftIcon {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.cardImage {
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #d96968;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.card {
+    height: 340px;
+    width: 300px;
+    border: thick;
+    background-color: #092040;
+    margin: 50px;
+    margin-left: 56px;
+    float: left;
+}
+
+#TextBox1 {
+    background-color: #e2e2e2;
+    margin-top: 20px;
+    color: 092040;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-color: #092040;
+}
+
+.Button1 {
+    display: block;
+    color: white;
+    background-color: #092040;
+    border-color: #092040;
+    float: left;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.Button2 {
+    display: block;
+    color: white;
+    background-color: #092040;
+    border-color: #092040;
+    float: right;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.card-footer {
+    background-color: #d96968;
+    padding-top: 10px;
+    padding-bottom: 38px;
+    color: #092040;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.textBoxesLogInReg {
+    height: 60px;
+    width: 500px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    border-color: #092040;
+}
+
+.logInDiv {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    /*max-width: 500px;*/
+    /*margin-left: 200px;*/
+}
+
+.MgntStore {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: #d96968;
+    padding: 20px;
+}
+
+.mgmtItems {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: #d96968;
+    padding: 2%;
+    width: 100%;
+}
+
+.itemMgmt {
+    float: left;
+    width: 80%;
+    text-align: center;
+    border-style: solid;
+    border-top-style: hidden;
+    border-width: 20px;
+    border-color: #d96968;
+    background-color: #092040;
+    color: white;
+    height: auto;
+}
+
+.submitButton {
+    background-color: #d96968;
+    border-style: hidden;
+    width: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 25px;
+}
+
+.adminButtons {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 60%;
+    height: 150px;
+    font-size: 20px;
+    background-color: #092040;
+    color: white;
+    border-style: solid;
+    border-color: #d96968;
+    border-width: 10px;
+}
+
+.adminButtons:hover {
+    background-color: #d96968;
+    border-style: solid;
+    border-color: #092040;
+    border-width: 10px;
+    font-size: 30px;
+}
+
+.adminHead {
+    font-size: 20px;
+    background-color: #d96968;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: #d96968;
+    border-width: 10px;
+}
+
+.FileUploadInsertItem {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.resetPassword {
+    background-color: #092040;
+    border-color: #092040;
+    color: white;
+}
+
+.registerButton {
+    background-color: #092040;
+    border-color: #092040;
+    color: white;
+}
+
+.homeButton {
+    background-color: #092040;
+    border-color: #092040;
+    color: white;
+}
+
+.mgntButton {
+    background-color: #092040;
+    border-color: #092040;
+    color: white;
+    width: 300px;
+    height: 50px;
+
+}
+
+.UserName {
+    font-size: 25px;
+    background-color: #d96968;
+    padding: 20px;
+}
+
+.cartPage {
+    text-align: center;
+    font-size: 23px;
+    float: initial;
+    width: 50%;
+    height: 100%;
+    margin-left: 18%;
+    background-color: #d96968;
+    
+}
+
+.list-group-item list-group-item-primary {
+    color: #e2e2e2;
+    border-color: #092040;
+}
+
+.logInButtons {
+    text-align: center;
+}
+
+.placeholderList {
+    font-size: 20px;
+    border: solid;
+    border-style: solid;
+    background-color: #e2e2e2;
+    text-align: left;
+    float: left;
+    width: 50%;
+    height: 500px;
+    list-style: none;
+}
+
+
+.placeholderList2 {
+    font-size: 20px;
+    border: solid;
+    border-style: solid;
+    background-color: #e2e2e2;
+    text-align: right;
+    float: right;
+    width: 50%;
+    height: 500px;
+    list-style: none;
+}
+
+.listItem {
+    background-color: #808080;
+    margin-left: -9%;
+    margin-bottom: 2%;
+}
+
+.listItem1 {
+    background-color: #e2e2e2;
+    margin-left: -9%;
+    margin-bottom: 2%;
+}
+
+.items {
+    font-size: 20px;
+}
+
+.procide {
+    background-color: #092040;
+    border-color: #092040;
+    color: white;
+    margin: 20px
+}
+
+.ThankYouText {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 20%;
+    background-color: #d96968;
+    color: black;
+    width: 75%;
+    align-items: center;
+}
+
+.aspTag {
+    height: 20%;
+    padding: 2%;
+    text-align: center;
+    background: #d96968;
+    font-size: 30px;
+}
+
+.productDescription {
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.priceDiv {
+    color: white;
+    font-size: 25px;
+}
+
+#contain1 {
+    background-color: #092040;
+    margin-right: 0%;
+    margin-left: 5%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #d96968;
+    width: 50%;
+    max-height: 50%;
+    float: left;
+}
+
+#contain2 {
+    float: right;
+    width: 25%;
+    background-color: #d96968;
+    color: white;
+    margin-right: 2.5%;
+    font-size: 30px;
+    border-style: solid;
+    border-color: #092040;
+    border-width: 10px;
+}
+
+.infoImage {
+    text-align: center;
+    /*margin-right: 25%;*/
+    margin-left: 30%;
+    float: initial;
+    Height: 75%;
+    Width: 75%;
+}
+
+.infoBuyCard {
+    margin-left: 10%
+}
+
+.buyCardLabel {
+    border-style: solid;
+    border-color: #092040;
+    background-color: #092040;
+    border-width: 3px;
+    padding: 2%;
+    width: 90%;
+    font-size: 25px;
+}
+
+.infoButton {
+    background-color: #092040;
+    border-style: hidden;
+    color: white;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.paymentPageTags {
+    float: left;
+
+}
+
+#paymentTitle {
+    /*margin-left: 25%;*/
+    margin-right: 25%;
+    background-color: #092040;
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+    width: 100%;
+}
+
+#nameOnCard {
+    width: 100%;
+    text-align: center;
+    border-color: #d96968;
+}
+#cardNumber {
+    width: 100%;
+    text-align: center;
+    border-color: #d96968;
+}
+
+.xDate {
+    width: 45%;
+    float: left;
+}
+
+.cvCode {
+    width: 30%;
+    float: right;
+}
+
+.paymentPageTags {
+    text-align: center;
+    background-color: #d96968;
+    width: 100%;
+}
+
+.paymentButtons {
+    margin-top: 25%;
+}
+
+.submitPayment {
+    background-color: #d96968;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 2%;
+    border-style: hidden;
+
+}
+
+.searchPage {
+    width: 75%;
+    font-size: 20px;
+    background-color: #092040;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #d96968;
+    color: white;
+    max-height: 225px;
+}
+
+
+
+.aboutPageInfo {
+    text-align: center;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Style guide referenced for grids */
+/* https://www.codeproject.com/Articles/7645/Add-some-Style-to-your-DataGrids */
+
+.GridHeader {
+    font-weight: bold;
+    background-color: #d96968;
+    color: #092040;
+    border-color: #092040;
+}
+
+.GridHeader a {
+    text-decoration: none;
+    color: LightGoldenrodYellow;
+    padding: 0px 15px 0px 15px;
+}
+
+.GridHeader a:hover {
+    text-decoration: underline;
+    background: Tan url(images/spin.gif) no-repeat 0 100%;
+}
+
+.GridItem, .GridAltItem {
+    font-size: smaller;
+}
+
+.GridItem {
+    background-color: #092040;
+    font-size: 30px;
+    color: white;
+    background-color: #092040;
+    border-style: hidden;
+    border-width: 20px;
+    border-color: #d96968;
+}
+
+.GridAltItem {
+    background-color: #d96968;
+    font-size: 30px;
+    color: white;
+    background-color: #092040;
+    border-style: hidden;
+    border-width: 20px;
+    border-color: #d96968;
+}
+
+.aboutHeader {
+    font-size: 40px;
+    padding: 2%;
+    background-color: #d96968;
+}
+
+#contactHeader {
+    text-align: center;
+    font-size: 40px;
+    padding: 2%;
+    background-color: #d96968;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+#contactPageCss {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 15%;
+    color: white;
+    background-color: #092040;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #d96968;
+    font-size: 20px;
+    max-height: 450px;
+}
+
+#contactRow1 {
+    margin-left: -8%;
+    
+}
+
+#contactPageCol1 {
+    float: left;
+    width: 30%;
+    padding: 2%;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+#contactPageCol2 {
+    float: right;
+    width: 60%;
+    background-color: #d96968;
+    padding: 2%;
+    margin-right: 10%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.accountMgtButtons {
+    background-color: #d96968;
+    border-style: hidden;
+    
+
+}
+

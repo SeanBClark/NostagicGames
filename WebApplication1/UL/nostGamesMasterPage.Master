@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="nostGamesMasterPage.master.cs" Inherits="WebApplication1.UL.nostGamesMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+
+    <title>Nostalgic Games</title>
+    <meta charset="utf-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=divice-width, initial-scale-1" />
+     <!-- Latest compiled and minified CSS -->
+    <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">--%>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../Scripts/nostGamesMasterPage.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/MasterPage.css?parameter = 1"/>    
+    <link rel="stylesheet" type="text/css" href="../CSS/regPageStyleSheet.css?parameter = 1" />
+    <link rel="stylesheet" type="text/css" href="../CSS/AdminManagePageStyleSheet.css?parameter = 1" />
+    <link rel="stylesheet" type="text/css" href="../CSS/MasterPageInterfaceStyleSheet.css?parameter = 1" />
+    <asp:ContentPlaceHolder ID="headMasterPage" runat="server">
+        <%-- Header content for all pages created off the master page --%>
+    </asp:ContentPlaceHolder>
+    
+</head>
+    
+
+
+<body>
+    <form class ="form1" runat="server">
+
+    <%--Navigation Menu for all pages--%>
+    <nav class="horizontalNavBar">        
+        <ul class="navbar-nav">
+            <li class="btnHomeImage">
+                <a href="landingPage.aspx" ><img src="../images/icon1.jpeg" alt="NostGames" class="siteIcon"></a>            
+                    <asp:Button ID="btnHome" CssClass="btnHomeStyle" runat="server" Text="Search" />                
+                    <asp:TextBox ID="txbSearchBar" CssClass="txbSearchBarStyle" runat="server" ></asp:TextBox>
+                    <asp:Button ID="btnLogin" CssClass="btnLoginStyle" runat="server" Text="Login" OnClientClick="openNav(); return false;"/>
+                <a href="cartPage.aspx">
+                <div class="btnLoginStyle" style="margin-right: 3%">
+                    <img src="../images/cart.png" alt="Cart Icon" class="cartIcon" style="height: 18%; width: 18%;"/> Cart <%=StringCartCount()%>
+                </div>
+                </a>
+
+            </li>            
+        </ul>
+    </nav>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        Email Address
+        <br />
+        <asp:TextBox ID="txbUsername" CssClass="txbSearchBarStylePopup" runat="server" style="width:25%"></asp:TextBox>
+          <br />
+        <asp:Label ID="LbUsernamVal" class="LbVal" runat="server" Text="Invalid Email Address"></asp:Label>
+        <br />
+        <br />
+        Password
+        <br />
+        <asp:TextBox ID="txbPassword" CssClass="txbSearchBarStylePopup" runat="server" style="width:25%"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Button ID="btnClear" CssClass="btnPopUp" runat="server" Text="Clear" />                
+        <asp:Button ID="btnLoginAct" CssClass="btnPopUp" runat="server" Text="Login"/>
+        <br />
+        <br />
+        <asp:Button ID="btnResetPassword" CssClass="btnPopUp" runat="server" Text="Reset Password"/>
+      </div>
+    </div>
+
+    <div id="aboutNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeAbout()">&times;</a>
+      <div class="overlay-content">  
+          <br />
+          <h3>Nostalgic Games</h3>
+          <br />
+          About Nostalgic Games About Nostalgic Games About Nostalgic Games  <br />
+          About Nostalgic Games About Nostalgic Games About Nostalgic Games  <br />
+          About Nostalgic Games About Nostalgic Games About Nostalgic Games  <br />
+          About Nostalgic Games About Nostalgic Games About Nostalgic Games  <br />
+          About Nostalgic Games About Nostalgic Games About Nostalgic Games  <br />
+          About Nostalgic Games About Nostalgic Games About Nostalgic Games  <br />
+      </div>
+    </div>
+
+    <div id="contactNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeContact()">&times;</a>
+      <div class="overlay-content">
+          <h3>How to contact Nostalgic Games</h3>
+          <br />
+          <h4>Email Us:</h4> nostalgic@games.com<br /><br />
+          <h4>Call Us:</h4> 01234567895<br /><br />
+          <h4>Call Us:</h4> 24, Games Road, Video Town, NSW, 6666, Australia<br /><br />
+      </div>
+    </div>
+
+    <div class="sideNav">
+        <br />
+        <%-- Should disapear after login --%>
+        <asp:Button ID="btnRegister" Cssclass="btnSideStyle" runat="server" Text="Register Account" />
+        <br />
+        <br />
+        <asp:Button ID="btnAbout" class="btnSideStyle" runat="server" Text="About Nostalgic Games" OnClientClick="openAbout(); return false;" />
+        <br />
+        <br />
+        <asp:Button ID="btnContact" class="btnSideStyle" runat="server" Text="Contact Nostalgic Games" OnClientClick="openContact(); return false;" />
+        <%--<br />
+        <br />
+        <asp:Button ID="btnHistory" class="btnSideStyle" runat="server" Text="Account History" />--%>
+        <br />
+        <br />
+        <%-- For easy Navigation for Marker --%>
+        <asp:Button ID="btnManageAccount" class="btnSideStyle" runat="server" Text="Admin Site (for marker)" />
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <%-- Content Place Holder for all content created off a master page  --%>
+        </asp:ContentPlaceHolder>
+    </div>
+
+    </form>
+</body>
+</html>
